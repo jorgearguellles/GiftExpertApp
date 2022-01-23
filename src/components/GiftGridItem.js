@@ -2,7 +2,7 @@
 const GiftGridItem = ({ title, urlImg }) => {
 
   return(
-    <div className="card">
+    <div className="card animate__animated animate__zoomIn">
       <img alt={title} src={urlImg} />
       <p>{title}</p>
     </div>

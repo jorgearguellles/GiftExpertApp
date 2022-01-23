@@ -8,7 +8,9 @@ const GiftGrid = ({ category }) => {
   return(
     <>
       <h4>{category}</h4>
+
       {loading && <p>Loading...</p>}
+      
       <div className="card-grid">
         {
           images.map( img => (
