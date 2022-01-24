@@ -2,9 +2,9 @@ import '@testing-library/jest-dom';
 import { useFetchGifts } from '../../hooks/useFetchGifts';
 import { renderHooks } from "@testing-library/react-hooks";
 
-describe("<useFetchGifts />", ()=>{
+describe("<useFetchGifts /> Testing", ()=>{
 
-  test("Should return initial state", ()=>{
+  test("1. Should return initial state", ()=>{
 
     // const {data, loading} = useFetchGifts('Matrix');
     renderHooks( () => useFetchGifts('Matrix'));
