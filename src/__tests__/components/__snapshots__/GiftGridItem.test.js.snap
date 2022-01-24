@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`< GiftGridItem /> testing 1. Should render correctly 1`] = `
+<div
+  className="card animate__animated animate__zoomIn"
+>
+  <img
+    alt="Title here"
+    src="https://www.urlImages.com"
+  />
+  <p>
+    Title here
+  </p>
+</div>
+`;

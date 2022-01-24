@@ -2,6 +2,7 @@ import { useState,useEffect } from "react"
 import { getGift } from '../helpers/getGift';
 
 const useFetchGifts = ( category ) => {
+  
   const [state, setState] = useState({
     data: [],
     loading: true,

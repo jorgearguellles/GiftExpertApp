@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 
 const GiftGridItem = ({ title, urlImg }) => {
 
@@ -10,3 +11,14 @@ const GiftGridItem = ({ title, urlImg }) => {
 };
 
 export { GiftGridItem };
+
+GiftGridItem.propTypes = {
+  title: PropTypes.string.isRequired,
+  urlImg: PropTypes.string.isRequired,
+}
+
+GiftGridItem.defaultProps = {
+  title: "Title here",
+  urlImg: "https://www.google.com",
+}
+

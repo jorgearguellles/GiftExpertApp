@@ -4,7 +4,7 @@ import { GiftGrid } from "./components/GiftGrid";
 
 const GiftExpertApp = () => {
   
-  const [categories, setCategories] = useState(['Rick'])
+  const [categories, setCategories] = useState(['disney'])
 
   // const handleAdd = () =>{
   //   const newElement = "Meta";
